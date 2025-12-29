@@ -1,0 +1,300 @@
+# Awesome-LLM-Finetuning-Guide
+
+
+<div align='center'>
+    <img src="./images/head.jpg" alt="alt text" width="100%">
+    <h1>Awesome-LLM-Finetuning</h1>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/LLaMAFactoryOnline/LLaMA-Factory-Online?style=flat&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/LLaMAFactoryOnline/LLaMA-Factory-Online?style=flat&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
+  <a href="https://github.com/LLaMAFactoryOnline/LLaMA-Factory-Online"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
+
+</div>
+
+<div align="center">
+  <a href="https://trendshift.io/repositories/14175" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14175" alt="datawhalechina%2Fhappy-llm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
+
+<div align="center">
+
+[中文](./README.md) | [English](./README_en.md)
+
+</div>
+
+<div align="center">
+  <p><a href="https://datawhalechina.github.io/happy-llm/">📚 在线阅读地址</a></p>
+  <h3>📚 从零开始的大语言模型微调实战实践教程</h3>
+  <p><em>从零掌握大模型微调核心技术，手把手实现专业级模型定制（Powered by LLaMA-Factory Online）</em></p>
+</div>
+
+---
+
+
+
+## 🎯 项目介绍
+
+  随着大语言模型的快速发展，越来越多开发者希望将自己的专业知识、垂直领域数据与大模型结合，但面对庞大的模型参数、复杂的训练流程和多样的微调技术，往往感到无从下手。为此，我们推出《Awesome-LLM-Finetuning-Guide》项目，旨在为开发者提供一份全面、实用的大模型微调实战指南。
+
+  本项目是专门针对大模型微调的系统性教程，从基础概念到高级技巧，从理论原理到代码实战，全面覆盖微调的各个环节。我们将带领你深入理解不同微调方法的核心机制，掌握数据处理、参数调优、模型评估的实战技能，并通过真实行业案例展示如何将大模型落地到实际业务场景。我们希望这份指南能够成为每一位希望掌握大模型定制化能力的开发者的必备手册。
+
+LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调平台，无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练
+
+## ✨ 你将收获什么？
+
+🎯 **理论基础深入掌握**
+- 深入理解大模型微调的核心原理与技术发展脉络
+- 掌握 LoRA、Adapter、Prefix Tuning 等高效微调方法的机制
+- 理解不同微调策略的适用场景与选择依据
+
+🛠️ **实战技能全面提升**
+- 掌握数据处理、模型训练、评估优化的全流程实践
+- 学会在不同硬件资源下进行微调的性能优化技巧
+- 掌握模型部署、监控、迭代的工程化方法
+
+
+
+🏢 **行业应用深度实践**
+- 学习医疗、法律、金融、工业等垂直领域的微调案例
+- 掌握行业合规性、数据安全、效果评估的专业知识
+- 了解企业级大模型应用的完整解决方案
+
+🌐 **开源生态积极参与**
+- 加入活跃的开源社区，与行业专家深度交流
+- 获得免费的云上微调算力支持
+- 参与贡献，成为项目核心维护者
+
+## 📖 内容导航
+
+| 章节 | 核心内容 | 状态 |
+|------|----------|------|
+| 第一章 大模型微调基础 | 微调核心概念、价值、适用场景、技术对比 | ✅ |
+| 第二章 微调技术深度解析 | LoRA、Adapter、Prefix Tuning、QLoRA 等高效微调方法 | 🚧 |
+| 第三章 数据集构建与处理 | 数据质量评估、预处理流程、增强技术、开源数据集 | ✅ |
+| 第四章 微调参数与调优 | 学习率策略、Batch Size 优化、训练技巧、超参数速查 | 🚧 |
+| 第五章 实战框架与工具 | Transformers、PEFT、DeepSpeed、W&B 等工具实战 | ✅ |
+| 第六章 主流模型微调实战 | Llama、Qwen、Mistral 等模型的微调指南 | ✅ |
+| 第七章 行业应用案例 | 医疗、法律、金融、工业等领域完整解决方案 | 🚧 |
+| 第八章 评估与优化 | 自动/人工评估、问题诊断、性能优化策略 | ✅ |
+| 第九章 部署与迭代 | 模型压缩、服务部署、持续学习、监控运维 | 🚧 |
+| 第十章 LLaMA-Factory Online 实战 | 云端微调平台完整使用指南 | ✅ |
+| 第十一章 模型篇 | 常见错误解决、性能调优、最佳实践总结 | ✅ |
+| 第十二章 数据集篇 | 贡献流程、奖励计划、社区资源 | ✅ |
+
+## 🎯 模型篇
+
+
+
+---
+
+**注意：**
+1. 下载地址栏中标注"官方渠道"的模型可能需要访问对应官网或联系供应商获取
+2. 部分模型名称可能有误（如QweQwen2.5-1.5B），使用时请核实
+3. 模型分类基于主要功能特点，部分模型可能具备多重能力
+4. AWQ/AutoAWQ是一种高效量化技术，可减少显存占用
+5. GGUF格式适合在CPU上运行，兼容llama.cpp等推理框架
+---
+
+## 精选最新模型列表
+
+以下是整理后的Markdown表格，包含新增的"Publisher"列：
+
+| 模型名称 | 使用领域 | 下载地址 | Publisher | 主要特点 |
+|---------|---------|---------|-----------|---------|
+| Qwen3-4B-Instruct-2507 | 指令跟随 | /shared-only/models/Qwen/Qwen3-4B-Thinking-2507 | Qwen | 2025年7月最新指令版本 |
+| Qwen3-4B-Thinking-2507 | 复杂推理 | /shared-only/models/Qwen/Qwen3-4B-Instruct-2507 | Qwen | 2025年7月思考链版本 |
+| Qwen3-Omni-30B-A3B-Instruct | 多模态 | /shared-only/models/Qwen/Qwen3-Omni-30B-A3B-Instruct | Qwen | 全能多模态最新版 |
+| Qwen3-Omni-30B-A3B-Thinking | 多模态推理 | /shared-only/models/Qwen/Qwen3-Omni-30B-A3B-Instruct | Qwen | 全能多模态思考链 |
+| Qwen3-VL-4B-Instruct | 视觉理解 | /shared-only/models/Qwen/Qwen3-VL-4B-Instruct | Qwen | Qwen3系列最新视觉模型 |
+| Qwen3-VL-4B-Thinking | 视觉推理 | /shared-only/models/Qwen/Qwen3-VL-4B-Thinking | Qwen | 思考链视觉模型最新 |
+| Qwen3-VL-8B-Instruct | 视觉理解 | /shared-only/models/Qwen/Qwen3-VL-8B-Instruct | Qwen | 8B视觉模型最新版 |
+| Qwen3-VL-8B-Thinking | 视觉推理 | /shared-only/models/Qwen/Qwen3-VL-8B-Thinking | Qwen | 8B思考链视觉最新 |
+| Qwen3-VL-30B-A3B-Instruct | 视觉理解 | /shared-only/models/Qwen/Qwen3-VL-30B-A3B-Instruct | Qwen | MoE架构视觉最新 |
+| Qwen3-VL-30B-A3B-Thinking | 视觉推理 | /shared-only/models/Qwen/Qwen3-VL-30B-A3B-Thinking | Qwen | MoE思考链视觉最新 |
+| Qwen3-VL-235B-A22B-Instruct | 视觉理解 | /shared-only/models/Qwen/Qwen3-VL-235B-A22B-Instruct | Qwen | 超大规模视觉最新 |
+| Qwen3-VL-235B-A22B-Thinking | 视觉推理 | /shared-only/models/Qwen/Qwen3-VL-235B-A22B-Thinking | Qwen | 顶尖视觉推理最新 |
+| DeepSeek-R1-0528-Qwen3-8B | 推理增强 | /shared-only/models/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B | DeepSeek | 2025年5月推理模型 |
+| Kimi-VL-A3B-Thinking-2506 | 视觉推理 | /shared-only/models/moonshotai/Kimi-VL-A3B-Thinking-2506 | Moonshot AI | 2025年6月思考链版 |
+| LLaVA-NeXT-Video-34B-DPO-hf | 视频理解 | /shared-only/models/llava-hf/LLaVA-NeXT-Video-34B-DPO-hf | LLaVA | DPO优化最新视频 |
+| InternVL3-78B | 视觉理解 | /shared-only/models/OpenGVLab/InternVL3-78B | OpenGVLab | 最新大规模视觉模型 |
+| Llama-4-Scout-17B-16E-Instruct | 多感官输入 | /shared-only/models/meta-llama/Llama-4-Scout-17B-16E-Instruct | Meta | Meta最新多模态 |
+| MiMo-7B-RL-0530 | 强化学习 | /shared-only/models/XiaomiMiMo/MiMo-7B-RL-0530 | Xiaomi | 2025年5月RL版本 |
+| MiniCPM-V-4_5 | 视觉理解 | /shared-only/models/openbmb/MiniCPM-V-4_5 | OpenBMB | 最新轻量视觉模型 |
+| Ovis2.5-9B | 通用模型 | /shared-only/models/openbmb/MiniCPM-V-4_5 | OpenBMB | 最新通用模型 |
+
+
+
+平台内置海量AI模型，用户只需点击[模型列表](/Extra-Chapter/modelList)可查看并获取所有模型，无需逐一手动搜索。以下是平台最新推出的代表性模型示例：Qwen3、InternVL3、Qwen3-VL 等。模型普遍具备以下前沿技术特性：  
+- **思考链（Chain-of-Thought, CoT）推理能力**  
+- **混合专家（Mixture of Experts, MoE）架构**  
+- **基于强化学习（Reinforcement Learning, RL）的优化机制**
+- **多模态理解、视频解析、复杂推理**等综合能力更强的模型，以满足多样化的应用需求
+
+
+## 📊 行业专用数据集库
+
+
+| 数据集名称 | 数据集大小 | 数据集路径 | Publisher | 数据集描述 |
+| :--- | :--- | :--- | :--- | :--- |
+| wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | pleisto | 经过过滤和处理的2023年7月20日中文维基百科数据，适用于中文模型预训练。 |
+| wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | 包含2022年12月20日英文维基百科快照的文本，是高质量的知识性预训练语料。 |
+| refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | TII | 由TII为Falcon模型创建的高质量网络文本，经过大量过滤和去重，是目前最好的开放网络语料之一。 |
+| QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | AlayaNeW | 专为多模态大模型微调任务构建，聚焦自动驾驶场景下的视觉识别需求。基于QA_from_CoVLA数据集进行翻译整理的中文版本。适配了llamafactory框架微调数据集格式。 |
+| redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | togethercomputer | 一个旨在完全开源地复现LLaMA模型训练数据的项目，包含海量、多样的文本和代码。 |
+| medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | llamafactory | 暂无 |
+| identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | 该数据集主要围绕身份信息展开，包含多种语言（中英）的用户询问（如问候、询问身份、能力等）及对应的AI助手回复模板，模板中涉及AI助手的名称和开发者信息。 |
+| alpaca_en | 22MB | `/shared-only/datasets/alpaca_data_en_52k.json` | llamafactory | 该数据集是 Alpaca 格式的英文指令监督微调示例数据集，包含用户指令、输入、模型回答、系统提示词和历史对话消息等内容，用于模型学习和微调。 |
+| alpaca_zh_demo | 622KB | `/shared-only/datasets/alpaca_zh_demo.json` | llamafactory | 该数据集是 Alpaca 格式的中文指令监督微调示例数据集，包含用户指令、输入、模型回答、系统提示词和历史对话消息等内容，用于模型学习和微调。 |
+| glaive_toolcall_en_demo | 722KB | `/shared-only/datasets/glaive_toolcall_en_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的英文指令监督微调示例数据集，通过 `conversations` 列呈现包含 human、function_call、observation、gpt 等多种角色的对话内容，还可包含系统提示词和工具描述，用于模型学习和工具调用相关的微调训练。 |
+| glaive_toolcall_zh_demo | 722KB | `/shared-only/datasets/glaive_toolcall_zh_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的中文指令监督微调示例数据集，以对象列表形式在 `conversations` 列呈现 human、function_call、observation、gpt 等多种角色的对话，还可包含选填的系统提示词和工具描述，用于模型学习和工具调用相关的微调训练。 |
+| mllm_audio_demo | 877B | `/shared-only/datasets/mllm_audio_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态音频演示数据集，包含用户与助手的对话消息以及对应的音频文件路径，用于多模态模型在音频相关问答上的学习和微调。 |
+| mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频演示数据集，包含用户针对视频提出的问题及对应助手的回答，同时提供视频文件路径，用于多模态模型在视频问答方面的学习和微调。 |
+| mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频与音频演示数据集，包含用户针对视频和音频提出的问题及对应助手的回答，同时提供视频和音频文件的路径，用于多模态模型在视频与音频问答方面的学习和微调。 |
+
+平台内置海量AI模型，用户只需点击模型列表可查看并获取所有模型，无需逐一手动搜索。以下是平台最新推出的代表性模型示例：Qwen3、InternVL3、Qwen3-VL 等。模型普遍具备以下前沿技术特性：
+
+思考链（Chain-of-Thought, CoT）推理能力
+混合专家（Mixture of Experts, MoE）架构
+基于强化学习（Reinforcement Learning, RL）的优化机制
+多模态理解、视频解析、复杂推理等综合能力更强的模型，以满足多样化的应用需求
+
+
+## PDF版本下载
+  本Awesome-LLM-Finetuning-Guide教程完全开源免费。为防止各类营销号加水印后贩卖给大模型初学者，我们特地在PDF文件中预先添加了不影响阅读的`Awesome-LLM-Finetuning-Guide`开源标志水印，敬请谅解～
+
+
+**最新版本下载**：
+- 完整版 PDF：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0
+- 精简版（实操部分）：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0-lite
+
+## 💡 如何学习
+
+### 目标受众
+- 🤖 **AI工程师/算法工程师**：希望系统掌握大模型微调技术
+- 🎓 **学生/研究人员**：需要理论基础与实验指导
+- 🏢 **企业技术负责人**：寻求大模型落地解决方案
+- 💻 **开发者/爱好者**：对AI感兴趣，希望参与开源项目
+
+### 学习路径建议
+
+#### 初学者路径（建议2-3周）
+1. **第一周**：阅读第1-3章，建立微调基础认知
+2. **第二周**：学习第5章，完成第一个微调实验
+3. **第三周**：选择感兴趣的行业案例（第7章）进行实践
+
+#### 进阶者路径（建议1-2周）
+1. **深度学习**：重点学习第2、4、8章的技术细节
+2. **系统实践**：使用 LLaMA-Factory Online 完成端到端项目
+3. **源码研究**：阅读项目提供的完整代码案例
+
+#### 专家路径
+1. **技术创新**：研究第2章中的前沿微调技术
+2. **性能优化**：实践第4、8、11章的调优技巧
+3. **贡献社区**：参与第12章的社区建设与项目贡献
+
+### 学习建议
+1. **理论结合实践**：每个技术点都配有代码示例，建议动手运行
+2. **循序渐进**：按照章节顺序学习，打好基础再深入
+3. **社区互动**：遇到问题及时在Issue区提问，积极参与讨论
+4. **持续更新**：关注项目更新，了解最新技术动态
+
+## 🤝 如何贡献
+
+我们热烈欢迎任何形式的贡献，共同打造最好的大模型微调学习资源！
+
+### 🐛 报告问题
+- 发现文档错误、代码Bug？请提交[Issue](https://github.com/LLaMAFactoryOnline/LLaMA-Factory-Online/issues)。
+- 详细描述问题，提供复现步骤，我们会尽快处理。
+
+### 💡 提出建议
+- 有好的想法或功能建议？欢迎分享
+- 包括：新章节建议、技术补充、案例添加等
+
+### 📝 完善内容
+- 补充缺失的技术细节
+- 优化文档表达，提升可读性
+- 翻译多语言版本
+
+### 🔧 代码贡献
+- 修复代码Bug
+- 优化算法实现
+- 添加新的示例代码
+
+### 🏢 行业案例贡献
+- 分享你的行业微调实践经验
+- 提供经过验证的数据集和模型
+- 贡献企业级应用案例
+
+## 🎁 贡献奖励计划
+
+为了感谢您的贡献，我们设立了丰富的奖励机制：
+
+### 🎉 算力奖励（以下待定）
+- 提交有效PR并被Merge：赠送 **x小时** LLaMA-Factory Online 平台算力
+- 贡献重要功能或章节：赠送 **50-100小时** 算力
+- 成为核心贡献者：**长期免费算力**支持
+
+### 🚀 参与步骤
+1. Fork 本仓库
+2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 提交 Pull Request
+
+## 🙏 致谢
+
+### 核心贡献团队
+- **项目发起人**：LLM-Factory 团队
+- **技术负责人**：[姓名]，[所属机构]
+- **架构设计**：[姓名]，[所属机构]
+- **内容主编**：[姓名]，[所属机构]
+
+
+
+## ⭐ 支持我们
+
+如果这个项目对您有帮助，请给我们一个Star！⭐
+您的支持是我们持续更新的最大动力！
+
+
+## 📞 联系与交流
+
+### 官方平台
+- 🌐 **官方网站**：https://www.llamafactory.online/
+- 💬 **在线文档**：https://docs.llamafactory.online/
+- 🎥 **视频教程**：https://space.bilibili.com/3546954208381522/upload/video
+- 💬 **微信交流群**：（扫码添加助手，备注"微调指南"）
+
+
+### 合作联系
+- 📧 **商务合作**：
+- 📧 **技术咨询**：
+- 📧 **社区运营**：
+
+## 📜 开源协议
+
+本项目采用 **知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议** 进行许可。
+
+**您可以自由地：**
+- 分享 — 在任何媒介以任何形式复制、发行本作品
+- 演绎 — 修改、转换或以本作品为基础进行创作
+
+**惟须遵守下列条件：**
+- 署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否对原始作品作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+- 非商业性使用 — 您不得将本作品用于商业目的。
+- 相同方式共享 — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先相同的许可协议分发您贡献的作品。
+
+**完整许可协议文本**：请参阅 LICENSE 文件。
+
+---
+
+**关于 LLaMA-Factory**  
+LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。
+
+扫描二维码关注我们，获取最新技术动态和活动信息：
+
+![alt text](image.png)
+
+**一起构建更智能的未来！** 🚀
