@@ -2,7 +2,7 @@
 
 
 <div align='center'>
-    <img src="./images/head.jpg" alt="alt text" width="100%">
+    <img src="./images/head.png" alt="alt text" width="100%">
     <h1>Awesome-LLM-Finetuning</h1>
 </div>
 
@@ -14,18 +14,16 @@
 
 </div>
 
+
+
 <div align="center">
-  <a href="https://trendshift.io/repositories/14175" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14175" alt="datawhalechina%2Fhappy-llm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+[中文](./README.md) 
+
 </div>
 
 <div align="center">
 
-[中文](./README.md) | [English](./README_en.md)
-
-</div>
-
-<div align="center">
-  <p><a href="https://datawhalechina.github.io/happy-llm/">📚 在线阅读地址</a></p>
   <h3>📚 从零开始的大语言模型微调实战实践教程</h3>
   <p><em>从零掌握大模型微调核心技术，手把手实现专业级模型定制（Powered by LLaMA-Factory Online）</em></p>
 </div>
@@ -164,10 +162,10 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 ## PDF版本下载
   本Awesome-LLM-Finetuning-Guide教程完全开源免费。为防止各类营销号加水印后贩卖给大模型初学者，我们特地在PDF文件中预先添加了不影响阅读的`Awesome-LLM-Finetuning-Guide`开源标志水印，敬请谅解～
 
-
+<!-- 
 **最新版本下载**：
 - 完整版 PDF：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0
-- 精简版（实操部分）：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0-lite
+- 精简版（实操部分）：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0-lite -->
 
 ## 💡 如何学习
 
