@@ -84,20 +84,14 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 ## 🎯 模型篇
 
 
-
----
-
-**注意：**
-1. 下载地址栏中标注"官方渠道"的模型可能需要访问对应官网或联系供应商获取
-2. 部分模型名称可能有误（如QweQwen2.5-1.5B），使用时请核实
-3. 模型分类基于主要功能特点，部分模型可能具备多重能力
-4. AWQ/AutoAWQ是一种高效量化技术，可减少显存占用
-5. GGUF格式适合在CPU上运行，兼容llama.cpp等推理框架
----
-
 ## 精选最新模型列表
 
-以下是整理后的Markdown表格，包含新增的"Publisher"列：
+平台内置海量AI模型，用户只需点击[模型列表](/Extra-Chapter/modelList)可查看并获取所有模型，无需逐一手动搜索。以下是平台最新推出的代表性模型示例：Qwen3、InternVL3、Qwen3-VL 等。模型普遍具备以下前沿技术特性：  
+- **思考链（Chain-of-Thought, CoT）推理能力**  
+- **混合专家（Mixture of Experts, MoE）架构**  
+- **基于强化学习（Reinforcement Learning, RL）的优化机制**
+- **多模态理解、视频解析、复杂推理**等综合能力更强的模型，以满足多样化的应用需求
+
 
 | 模型名称 | 使用领域 | 下载地址 | Publisher | 主要特点 |
 |---------|---------|---------|-----------|---------|
@@ -124,15 +118,24 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 
 
 
-平台内置海量AI模型，用户只需点击[模型列表](/Extra-Chapter/modelList)可查看并获取所有模型，无需逐一手动搜索。以下是平台最新推出的代表性模型示例：Qwen3、InternVL3、Qwen3-VL 等。模型普遍具备以下前沿技术特性：  
-- **思考链（Chain-of-Thought, CoT）推理能力**  
-- **混合专家（Mixture of Experts, MoE）架构**  
-- **基于强化学习（Reinforcement Learning, RL）的优化机制**
-- **多模态理解、视频解析、复杂推理**等综合能力更强的模型，以满足多样化的应用需求
+
 
 
 ## 📊 行业专用数据集库
 
+平台内置海量AI模型，这些数据集共同构成了从基础预训练到高级任务微调的完整数据生态，支持多语言、多模态大语言模型的开发与训练，点击[数据集列表](/Extra-Chapter/datasetlList)免费获取更多高质量数据集。
+
+**基础预训练**数据集：包括wikipedia_zh、wikipedia_en、refinedweb和redpajama_v2等，它们规模巨大、内容通用，是模型学习语言和世界知识的基石。
+
+**指令监督微调**数据集：以alpaca_en和alpaca_zh_demo为代表，用于教会模型理解并遵循人类的指令进行对话和任务执行。
+
+**工具调用微调**数据集：如glaive_toolcall_en_demo和glaive_toolcall_zh_demo，专门训练模型理解“调用外部函数”并处理返回结果的能力。
+
+**多模态微调**数据集：包括mllm_audio_demo、mllm_video_demo等，通过关联文本与音频、视频文件，训练模型处理和理解多模态信息。
+
+**领域专项微调**数据集：例如针对自动驾驶的QA_from_CoVLA_zh、针对医疗的medical_o1_sft_Chinese_alpaca以及定义身份的identity，用于增强模型在特定垂直领域的专业性或行为规范。
+
+这些数据集共同支撑了大语言模型从通用知识学习、对话能力培养到专项技能赋予的全阶段开发流程。
 
 | 数据集名称 | 数据集大小 | 数据集路径 | Publisher | 数据集描述 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -151,12 +154,7 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 | mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频演示数据集，包含用户针对视频提出的问题及对应助手的回答，同时提供视频文件路径，用于多模态模型在视频问答方面的学习和微调。 |
 | mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频与音频演示数据集，包含用户针对视频和音频提出的问题及对应助手的回答，同时提供视频和音频文件的路径，用于多模态模型在视频与音频问答方面的学习和微调。 |
 
-平台内置海量AI模型，用户只需点击模型列表可查看并获取所有模型，无需逐一手动搜索。以下是平台最新推出的代表性模型示例：Qwen3、InternVL3、Qwen3-VL 等。模型普遍具备以下前沿技术特性：
 
-思考链（Chain-of-Thought, CoT）推理能力
-混合专家（Mixture of Experts, MoE）架构
-基于强化学习（Reinforcement Learning, RL）的优化机制
-多模态理解、视频解析、复杂推理等综合能力更强的模型，以满足多样化的应用需求
 
 
 ## PDF版本下载
@@ -225,14 +223,7 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 - 提供经过验证的数据集和模型
 - 贡献企业级应用案例
 
-## 🎁 贡献奖励计划
 
-为了感谢您的贡献，我们设立了丰富的奖励机制：
-
-### 🎉 算力奖励（以下待定）
-- 提交有效PR并被Merge：赠送 **x小时** LLaMA-Factory Online 平台算力
-- 贡献重要功能或章节：赠送 **50-100小时** 算力
-- 成为核心贡献者：**长期免费算力**支持
 
 ### 🚀 参与步骤
 1. Fork 本仓库
@@ -264,10 +255,7 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 - 💬 **微信交流群**：（扫码添加助手，备注"微调指南"）
 
 
-### 合作联系
-- 📧 **商务合作**：
-- 📧 **技术咨询**：
-- 📧 **社区运营**：
+
 
 ## 📜 开源协议
 
@@ -291,6 +279,8 @@ LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
-![alt text](image.png)
+![alt text](/images/image)
+
+
 
 **一起构建更智能的未来！** 🚀
