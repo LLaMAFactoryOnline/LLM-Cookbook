@@ -279,8 +279,7 @@ LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
-![alt text](/images/image)
-
+![alt text](image.png)
 
 
 **一起构建更智能的未来！** 🚀
