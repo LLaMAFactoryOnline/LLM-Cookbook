@@ -20,4 +20,4 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
           enable_jekyll: false  # 禁用 Jekyll，因为我们使用 Docsify
-          external_repository: llamafactoryonline/llm  # 替换为你的 GitHub 仓库
+          external_repository: shengxiuhua/LLaMA-Factory-Online # 替换为你的 GitHub 仓库
