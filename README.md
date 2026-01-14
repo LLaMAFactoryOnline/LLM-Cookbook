@@ -68,11 +68,11 @@
 
 | 章节 | 核心内容 | 状态 |
 |------|----------|------|
-| 第一章 大模型微调基础 | 微调核心概念、价值、适用场景、技术对比 | ✅ |
-| 第二章 微调技术深度解析 | LoRA、Adapter、Prefix Tuning、QLoRA 等高效微调方法 | 🚧 |
-| 第三章 数据集构建与处理 | 数据质量评估、预处理流程、增强技术、开源数据集 | ✅ |
-| 第四章 微调参数与调优 | 学习率策略、Batch Size 优化、训练技巧、超参数速查 | 🚧 |
-| 第五章 实战框架与工具 | Transformers、PEFT、DeepSpeed、W&B 等工具实战 | ✅ |
+| 第一章 NLP基础概念 | 微调核心概念、价值、适用场景、技术对比 | ✅ |
+| 第二章 Transformer架构| LoRA、Adapter、Prefix Tuning、QLoRA 等高效微调方法 | 🚧 |
+| 第三章 预训练语言模型 | 数据质量评估、预处理流程、增强技术、开源数据集 | ✅ |
+| 第四章 大预言模型 | 学习率策略、Batch Size 优化、训练技巧、超参数速查 | 🚧 |
+| 第五章 大模型微调 | Transformers、PEFT、DeepSpeed、W&B 等工具实战 | ✅ |
 | 第六章 主流模型微调实战 | Llama、Qwen、Mistral 等模型的微调指南 | ✅ |
 | 第七章 行业应用案例 | 医疗、法律、金融、工业等领域完整解决方案 | 🚧 |
 | 第八章 评估与优化 | 自动/人工评估、问题诊断、性能优化策略 | ✅ |
@@ -155,15 +155,6 @@
 | mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | ShareGPT 格式的多模态音视频数据集，含音视频问答及对应文件路径，用于音视频问答微调。 |
 
 
-
-<!-- 
-## PDF版本下载
-  本Awesome-LLM-Finetuning-Guide教程完全开源免费。为防止各类营销号加水印后贩卖给大模型初学者，我们特地在PDF文件中预先添加了不影响阅读的`Awesome-LLM-Finetuning-Guide`开源标志水印，敬请谅解～ -->
-
-<!-- 
-**最新版本下载**：
-- 完整版 PDF：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0
-- 精简版（实操部分）：https://github.com/your-org/awesome-llm-finetuning-guide/releases/tag/v1.0.0-lite -->
 
 ## 💡 如何学习
 
@@ -273,7 +264,7 @@
 ---
 
 **关于 LLaMA-Factory**  
-LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。
+LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练。
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
