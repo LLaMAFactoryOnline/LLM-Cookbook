@@ -1,7 +1,7 @@
 - [LLM-Cookbook](./README.md)
   - [前言](./前言.md)
   - [第一章 NLP 基础概念](./chapter1/1.%20NLP是什么.md)
-    - [1. NLP是什么](./chapter1/1.%20NLP是什么.md)
+    - [1. NLP概念](./chapter1/1.%20NLP是什么.md)
     - [2. NLP的演进之路](./chapter1/2.%20NLP的演进之路.md)
     - [3. NLP的核心任务](./chapter1/3.%20NLP的核心任务.md)
     - [4. 文本表示技术的演进](./chapter1/4.%20文本表示技术的演进.md)
