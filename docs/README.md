@@ -2,7 +2,7 @@
 
 
 <div align='center'>
-    <img src="./images/2.jpg" alt="alt text" width="100%">
+    <img src="/docs/images/head.png" alt="alt text" width="100%"> 
     <h1>LLM-Cookbook</h1>
 </div>
 
@@ -34,11 +34,11 @@
 
 ## 🎯 项目介绍
 
-  随着大语言模型的快速发展，越来越多开发者希望将自己的专业知识、垂直领域数据与大模型结合，但面对庞大的模型参数、复杂的训练流程和多样的微调技术，往往感到无从下手。为此，我们推出《Awesome-LLM-Finetuning-Guide》项目，旨在为开发者提供一份全面、实用的大模型微调实战指南。
+  随着大语言模型的快速发展，越来越多开发者希望将自己的专业知识、垂直领域数据与大模型结合，但面对庞大的模型参数、复杂的训练流程和多样的微调技术，往往感到无从下手。为此，我们推出《LLM-Cookbook》项目，旨在为开发者提供一份全面、实用的大模型微调实战指南。
 
   本项目是专门针对大模型微调的系统性教程，从基础概念到高级技巧，从理论原理到代码实战，全面覆盖微调的各个环节。我们将带领你深入理解不同微调方法的核心机制，掌握数据处理、参数调优、模型评估的实战技能，并通过真实行业案例展示如何将大模型落地到实际业务场景。我们希望这份指南能够成为每一位希望掌握大模型定制化能力的开发者的必备手册。
 
-LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调平台，无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练
+
 
 ## ✨ 你将收获什么？
 
@@ -66,20 +66,25 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 
 ## 📖 内容导航
 
-| 章节 | 核心内容 | 状态 |
-|------|----------|------|
-| 第一章 大模型微调基础 | 微调核心概念、价值、适用场景、技术对比 | ✅ |
-| 第二章 微调技术深度解析 | LoRA、Adapter、Prefix Tuning、QLoRA 等高效微调方法 | 🚧 |
-| 第三章 数据集构建与处理 | 数据质量评估、预处理流程、增强技术、开源数据集 | ✅ |
-| 第四章 微调参数与调优 | 学习率策略、Batch Size 优化、训练技巧、超参数速查 | 🚧 |
-| 第五章 实战框架与工具 | Transformers、PEFT、DeepSpeed、W&B 等工具实战 | ✅ |
-| 第六章 主流模型微调实战 | Llama、Qwen、Mistral 等模型的微调指南 | ✅ |
-| 第七章 行业应用案例 | 医疗、法律、金融、工业等领域完整解决方案 | 🚧 |
-| 第八章 评估与优化 | 自动/人工评估、问题诊断、性能优化策略 | ✅ |
-| 第九章 部署与迭代 | 模型压缩、服务部署、持续学习、监控运维 | 🚧 |
-| 第十章 LLaMA-Factory Online 实战 | 云端微调平台完整使用指南 | ✅ |
-| 第十一章 模型篇 | 常见错误解决、性能调优、最佳实践总结 | ✅ |
-| 第十二章 数据集篇 | 贡献流程、奖励计划、社区资源 | ✅ |
+# 📚 大模型微调学习导航表（含状态）
+
+| 章节序号 | 章节标题                          | 核心子内容                                                                                                                              | 状态 |
+|----------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|------|
+| 第一章   | NLP详解                          | NLP的基本概念、演进之路、文本表示技术的演进、核心任务                                                                                  | ✅    |
+| 第二章   | Transformer 架构                  | 注意力机制、Encoder-Decoder：序列转换的经典架构、搭建一个Transformer                                                                    | ✅    |
+| 第三章   | 预训练语言模型                   | Encoder-only PLM、Encoder-Decoder PLM、Decoder-Only PLM、三种架构的对比与选择指南                                                         | ✅    |
+| 第四章   | 大语言模型                       | 什么是LLM、如何训练一个LLM                                                                                                              | ✅    |
+| 第五章   | 大模型微调                       | 监督微调（SFT）、LoRA：参数高效的微调革命、Adapter：模块化的微调方案、Prefix Tuning与Prompt Tuning、RLHF：对齐人类偏好的高级技术、Prompt Engineering vs Fine-tuning、实战指南：从零到一完成微调项目、常见陷阱与解决方案 | ✅    |
+| 第六章   | 微调与其他模型优化方案的区别     | 微调 vs 提示工程、微调 vs 模型蒸馏、微调 vs 预训练、综合决策框架、模型微调坑点与技巧                                                       | ✅    |
+| 第七章   | 主流大模型微调框架与工具栈       | 深度学习框架、PEFT框架：参数高效微调的专用工具、数据处理与实验管理工具、硬件优化与分布式训练、工具栈选择与最佳实践                       | ✅    |
+| 第八章   | 数据集构建与处理                 | 数据集构建原则、数据预处理流程                                                                                                          | ✅    |
+| 第九章   | 微调参数详解                     | Learning Rate (学习率) 设置技巧、Batch Size 与 Gradient Accumulation 的平衡、Epochs 与 Overfitting (过拟合)、常见微调超参数速查表、高级超参数调优技术 | ✅    |
+| 第十章   | LLaMA-Factory Online             | 账户注册登录、新手使用指引、新用户限时免费体验                                                                                          | ✅    |
+| 第十一章 | 最佳实践                         | 医疗：构建基于Llama3.1-70B的医疗诊断系统、法律：构建LightLLM+LlamaIndex法律智能体、金融：构建基于Llama-3.2-11B-Vision-Instruct金融分析     | 🛠️    |
+
+---
+
+我可以帮你把这个表格和你最开始的内容导航表**合并成一个完整的学习路径表**，这样能清晰看到每个章节的对应关系和完成状态。需要我帮你合并吗？
 
 ## 🎯 模型篇
 
@@ -140,19 +145,19 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 | 数据集名称 | 数据集大小 | 数据集路径 | Publisher | 数据集描述 |
 | :--- | :--- | :--- | :--- | :--- |
 | wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | pleisto | 经过过滤和处理的2023年7月20日中文维基百科数据，适用于中文模型预训练。 |
-| wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | 包含2022年12月20日英文维基百科快照的文本，是高质量的知识性预训练语料。 |
+| wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | 包含2022年12月20日英文维基百科快照的文本，高质量知识性预训练语料。 |
 | refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | TII | 由TII为Falcon模型创建的高质量网络文本，经过大量过滤和去重，是目前最好的开放网络语料之一。 |
 | QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | AlayaNeW | 专为多模态大模型微调任务构建，聚焦自动驾驶场景下的视觉识别需求。基于QA_from_CoVLA数据集进行翻译整理的中文版本。适配了llamafactory框架微调数据集格式。 |
 | redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | togethercomputer | 一个旨在完全开源地复现LLaMA模型训练数据的项目，包含海量、多样的文本和代码。 |
 | medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | llamafactory | 暂无 |
-| identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | 该数据集主要围绕身份信息展开，包含多种语言（中英）的用户询问（如问候、询问身份、能力等）及对应的AI助手回复模板，模板中涉及AI助手的名称和开发者信息。 |
-| alpaca_en | 22MB | `/shared-only/datasets/alpaca_data_en_52k.json` | llamafactory | 该数据集是 Alpaca 格式的英文指令监督微调示例数据集，包含用户指令、输入、模型回答、系统提示词和历史对话消息等内容，用于模型学习和微调。 |
-| alpaca_zh_demo | 622KB | `/shared-only/datasets/alpaca_zh_demo.json` | llamafactory | 该数据集是 Alpaca 格式的中文指令监督微调示例数据集，包含用户指令、输入、模型回答、系统提示词和历史对话消息等内容，用于模型学习和微调。 |
-| glaive_toolcall_en_demo | 722KB | `/shared-only/datasets/glaive_toolcall_en_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的英文指令监督微调示例数据集，通过 `conversations` 列呈现包含 human、function_call、observation、gpt 等多种角色的对话内容，还可包含系统提示词和工具描述，用于模型学习和工具调用相关的微调训练。 |
-| glaive_toolcall_zh_demo | 722KB | `/shared-only/datasets/glaive_toolcall_zh_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的中文指令监督微调示例数据集，以对象列表形式在 `conversations` 列呈现 human、function_call、observation、gpt 等多种角色的对话，还可包含选填的系统提示词和工具描述，用于模型学习和工具调用相关的微调训练。 |
-| mllm_audio_demo | 877B | `/shared-only/datasets/mllm_audio_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态音频演示数据集，包含用户与助手的对话消息以及对应的音频文件路径，用于多模态模型在音频相关问答上的学习和微调。 |
-| mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频演示数据集，包含用户针对视频提出的问题及对应助手的回答，同时提供视频文件路径，用于多模态模型在视频问答方面的学习和微调。 |
-| mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | 该数据集是 Sharegpt 格式的多模态视频与音频演示数据集，包含用户针对视频和音频提出的问题及对应助手的回答，同时提供视频和音频文件的路径，用于多模态模型在视频与音频问答方面的学习和微调。 |
+| identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | 包含多种语言（中英）的用户询问及对应的AI助手回复模板，涉及AI助手的名称和开发者信息。 |
+| alpaca_en | 22MB | `/shared-only/datasets/alpaca_data_en_52k.json` | llamafactory | Alpaca格式的英文指令微调数据集，包含用户指令、输入、模型回答、系统提示和对话历史。 |
+| alpaca_zh_demo | 622KB | `/shared-only/datasets/alpaca_zh_demo.json` | llamafactory | Alpaca格式的中文指令微调数据集，包含指令、输入、回答、系统提示和对话历史。 |
+| glaive_toolcall_en_demo | 722KB | `/shared-only/datasets/glaive_toolcall_en_demo.json` | llamafactory | ShareGPT格式、英文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
+| glaive_toolcall_zh_demo | 722KB | `/shared-only/datasets/glaive_toolcall_zh_demo.json` | llamafactory | ShareGPT格式、中文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
+| mllm_audio_demo | 877B | `/shared-only/datasets/mllm_audio_demo.json` | llamafactory | ShareGPT 格式的多模态音频数据集，含对话和音频路径，用于音频问答微调。 |
+| mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | llamafactory | ShareGPT 格式的多模态视频数据集，含视频问答及视频路径，用于视频问答微调。 |
+| mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | ShareGPT 格式的多模态音视频数据集，含音视频问答及对应文件路径，用于音视频问答微调。 |
 
 
 
@@ -226,7 +231,7 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 ## 🙏 致谢
 
 ### 核心贡献团队
-- **项目发起人**：LLM-Factory团队
+- **项目发起人**：LLM-Cookbook团队
 
 
 
@@ -261,16 +266,14 @@ LLaMA-Factory Online是一个零代码低门槛的大语言模型训练与微调
 - 非商业性使用 — 您不得将本作品用于商业目的。
 - 相同方式共享 — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先相同的许可协议分发您贡献的作品。
 
-**完整许可协议文本**：请参阅 LICENSE 文件。
-
 ---
 
 **关于 LLaMA-Factory**  
-LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。
+LLaMA-Factory 是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练。
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
-![alt text](./images/15.png)
+![alt text](/docs/images/15.png)
 
 
 **一起构建更智能的未来！** 🚀
