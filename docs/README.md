@@ -2,7 +2,7 @@
 
 
 <div align='center'>
-    <img src="/docs/images/2.jpg" alt="alt text" width="100%"> 
+    <img src="./images/2.jpg" alt="alt text" width="100%"> 
     <h1>LLM-Cookbook</h1>
 </div>
 
@@ -273,7 +273,7 @@ LLaMA-Factory Online是一个开源的大模型微调与部署平台，致力于
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
-![alt text](/docs/images/1.jpg)
+![alt text](./images/1.jpg)
 
 
 **一起构建更智能的未来！** 🚀
