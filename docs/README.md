@@ -2,7 +2,7 @@
 
 
 <div align='center'>
-    <img src="/docs/images/2.jpg" alt="alt text" width="100%"> 
+    <img src="http://s1.llamafactory.online/llamafactory-online/docs/v2.0/documents/quickStart/getstarted/2.jpg" alt="alt text" width="100%"> 
     <h1>LLM-Cookbook</h1>
 </div>
 
