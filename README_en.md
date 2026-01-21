@@ -69,17 +69,17 @@
 
 | Chapter | Title                          | Core Content              | Status |
 |----------|-----------------------------------|--------------------------------|------|
-| Chapter 1  | NLP Fundamentals                          | Covers foundational NLP concepts, technological evolution, and core tasks.| ✅    |
-| Chapter 2  | Transformer Architecture                  | Analyzes attention mechanisms and builds complete Transformer models.| ✅    |
-| Chapter 3   | Pre-trained Language Models                   | Introduces three categories of pre-trained language model architectures with selection guidelines.| ✅    |
-| Chapter 4   | 	Large Language Model                       | Explores LLM definitions and training methodologies.| ✅    |
-| Chapter 5   | LLM Fine-Tuning                       | Explains mainstream fine-tuning techniques including SFT and LoRA, with practical guides and pitfall avoidance strategies.| ✅  |
-| Chapter 6   | Fine-Tuning vs. Other Model Optimization Approaches     | Compares fine-tuning with prompt engineering, distillation, and pre-training, providing decision-making frameworks.| ✅   |
-| Chapter 7   | Mainstream Fine-Tuning Frameworks & Toolchains       | Introduces fine-tuning tools like PEFT, along with data processing and hardware optimization solutions.| ✅    |
-| Chapter 8   | Dataset Construction & Processing                 | Covers dataset construction principles and preprocessing workflows.| ✅    |
-| Chapter 9   | Fine-Tuning Hyperparameters Explained                     | Analyzes tuning techniques for hyperparameters such as learning rate and batch size, with quick reference tables.| ✅    |
-| Chapter 10   | LLaMA-Factory Online             | Guides through cloud-based fine-tuning platform registration, usage, and free trial access.| ✅    |
-| Chapter 11 | Best Practice                         | Showcases real-world LLM fine-tuning implementations in healthcare, legal, and finance domains.| 🛠️    |
+| Chapter 1  | [NLP Fundamentals](./docs/chapter1/1.%20NLP是什么.md)  | Covers foundational NLP concepts, technological evolution, and core tasks.| ✅    |
+| Chapter 2  | [Transformer Architecture](./docs/chapter2/1.%20Transformer的历史意义与技术革命.md)| Analyzes attention mechanisms and builds complete Transformer models.| ✅    |
+| Chapter 3   | [Pre-trained Language Models](./docs/chapter3/1.%20预训练语言模型的革命性意义.md) | Introduces three categories of pre-trained language model architectures with selection guidelines.| ✅    |
+| Chapter 4   | 	[Large Language Model](./docs/chapter4/1.%20大语言模型的时代意义.md)  | Explores LLM definitions and training methodologies.| ✅    |
+| Chapter 5   | [LLM Fine-Tuning](./docs/chapter5/1.%20大模型微调的必要性与价值.md)  | Explains mainstream fine-tuning techniques including SFT and LoRA, with practical guides and pitfall avoidance strategies.| ✅  |
+| Chapter 6   | [Fine-Tuning vs. Other Model Optimization Approaches](./docs/chapter6/1.%20理解模型优化的全景图.md)     | Compares fine-tuning with prompt engineering, distillation, and pre-training, providing decision-making frameworks.| ✅   |
+| Chapter 7   | [Mainstream Fine-Tuning Frameworks & Toolchains](./docs/chapter7/1.%20构建高效微调生态系统.md)       | Introduces fine-tuning tools like PEFT, along with data processing and hardware optimization solutions.| ✅    |
+| Chapter 8   | [Dataset Construction & Processing](./docs/chapter8/1.%20数据质量决定模型上限.md) | Covers dataset construction principles and preprocessing workflows.| ✅    |
+| Chapter 9   | [Fine-Tuning Hyperparameters Explained](./docs/chapter9/1.%20超参数的艺术与科学.md)  | Analyzes tuning techniques for hyperparameters such as learning rate and batch size, with quick reference tables.| ✅    |
+| Chapter 10   | [LLaMA-Factory Online](./docs/chapter10/产品简介.md)| Guides through cloud-based fine-tuning platform registration, usage, and free trial access.| ✅    |
+| Chapter 11 | [Best Practice](./docs/chapter11/最佳实践.md) | Showcases real-world LLM fine-tuning implementations in healthcare, legal, and finance domains.| 🛠️    |
 
 ---
 
