@@ -25,7 +25,7 @@
 <div align="center">
 
   <h3>📚 从零开始的大语言模型微调实战实践教程</h3>
-  <p><em>从零掌握大模型微调核心技术，手把手实现专业级模型定制（Powered by LLaMA-Factory Online）</em></p>
+  <p><em>从零掌握大模型微调核心技术，手把手实现专业级模型定制（Powered by LlamaFactory Online）</em></p>
 </div>
 
 ---
@@ -81,7 +81,7 @@
 | 第七章   | [主流大模型微调框架与工具栈](./docs/chapter7/1.%20构建高效微调生态系统.md)| 介绍PEFT等微调工具，以及数据处理、硬件优化等配套方案。| ✅    |
 | 第八章   | [数据集构建与处理](./docs/chapter8/1.%20数据质量决定模型上限.md)| 讲解数据集构建原则与预处理流程。| ✅    |
 | 第九章   | [微调参数详解](./docs/chapter9/1.%20超参数的艺术与科学.md) | 解析学习率、Batch Size等超参数的调优技巧与速查表。| ✅    |
-| 第十章   | [LLaMA-Factory Online](./docs/chapter10/产品简介.md)| 介绍云端微调平台的注册、使用与免费体验。| ✅    |
+| 第十章   | [LlamaFactory Online](./docs/chapter10/产品简介.md)| 介绍云端微调平台的注册、使用与免费体验。| ✅    |
 | 第十一章 | [最佳实践](./docs/chapter11/最佳实践.md) | 展示医疗、法律、金融领域的大模型微调落地案例。| 🛠️    |
 
 ---
@@ -138,24 +138,22 @@
 
 这些数据集共同支撑了大语言模型从通用知识学习、对话能力培养到专项技能赋予的全阶段开发流程。
 
-| 数据集名称 | 数据集大小 | 数据集路径 | Publisher | 数据集描述 |
-| :--- | :--- | :--- | :--- | :--- |
-| wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | pleisto | 经过过滤和处理的2023年7月20日中文维基百科数据，适用于中文模型预训练。 |
-| wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | 包含2022年12月20日英文维基百科快照的文本，高质量知识性预训练语料。 |
-| refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | TII | 由TII为Falcon模型创建的高质量网络文本，经过大量过滤和去重，是目前最好的开放网络语料之一。 |
-| QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | AlayaNeW | 专为多模态大模型微调任务构建，聚焦自动驾驶场景下的视觉识别需求。基于QA_from_CoVLA数据集进行翻译整理的中文版本。适配了llamafactory框架微调数据集格式。 |
-| redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | togethercomputer | 一个旨在完全开源地复现LLaMA模型训练数据的项目，包含海量、多样的文本和代码。 |
-| medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | llamafactory | 暂无 |
-| identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | 包含多种语言（中英）的用户询问及对应的AI助手回复模板，涉及AI助手的名称和开发者信息。 |
-| alpaca_en | 22MB | `/shared-only/datasets/alpaca_data_en_52k.json` | llamafactory | Alpaca格式的英文指令微调数据集，包含用户指令、输入、模型回答、系统提示和对话历史。 |
-| alpaca_zh_demo | 622KB | `/shared-only/datasets/alpaca_zh_demo.json` | llamafactory | Alpaca格式的中文指令微调数据集，包含指令、输入、回答、系统提示和对话历史。 |
-| glaive_toolcall_en_demo | 722KB | `/shared-only/datasets/glaive_toolcall_en_demo.json` | llamafactory | ShareGPT格式、英文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
-| glaive_toolcall_zh_demo | 722KB | `/shared-only/datasets/glaive_toolcall_zh_demo.json` | llamafactory | ShareGPT格式、中文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
-| mllm_audio_demo | 877B | `/shared-only/datasets/mllm_audio_demo.json` | llamafactory | ShareGPT 格式的多模态音频数据集，含对话和音频路径，用于音频问答微调。 |
-| mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | llamafactory | ShareGPT 格式的多模态视频数据集，含视频问答及视频路径，用于视频问答微调。 |
-| mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | llamafactory | ShareGPT 格式的多模态音视频数据集，含音视频问答及对应文件路径，用于音视频问答微调。 |
-
-
+| 数据集名称 | 数据集大小 | 数据集路径 | 数据集描述 |
+| :--- | :--- | :--- | :--- |
+| wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | 经过过滤和处理的2023年7月20日中文维基百科数据，适用于中文模型预训练。 |
+| wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | 包含2022年12月20日英文维基百科快照的文本，高质量知识性预训练语料。 |
+| refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | 由TII为Falcon模型创建的高质量网络文本，经过大量过滤和去重，是目前最好的开放网络语料之一。 |
+| QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | 专为多模态大模型微调任务构建，聚焦自动驾驶场景下的视觉识别需求。基于QA_from_CoVLA数据集进行翻译整理的中文版本。适配了llamafactory框架微调数据集格式。 |
+| redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | 一个旨在完全开源地复现LLaMA模型训练数据的项目，包含海量、多样的文本和代码。 |
+| medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | 暂无 |
+| identity | 20KB | `/shared-only/datasets/identity.json` | 包含多种语言（中英）的用户询问及对应的AI助手回复模板，涉及AI助手的名称和开发者信息。 |
+| alpaca_en | 22MB | `/shared-only/datasets/alpaca_data_en_52k.json` | Alpaca格式的英文指令微调数据集，包含用户指令、输入、模型回答、系统提示和对话历史。 |
+| alpaca_zh_demo | 622KB | `/shared-only/datasets/alpaca_zh_demo.json` | Alpaca格式的中文指令微调数据集，包含指令、输入、回答、系统提示和对话历史。 |
+| glaive_toolcall_en_demo | 722KB | `/shared-only/datasets/glaive_toolcall_en_demo.json` | ShareGPT格式、英文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
+| glaive_toolcall_zh_demo | 722KB | `/shared-only/datasets/glaive_toolcall_zh_demo.json` | ShareGPT格式、中文微调数据集，包含多角色对话（如 human、gpt、function_call 等）。 |
+| mllm_audio_demo | 877B | `/shared-only/datasets/mllm_audio_demo.json` | ShareGPT 格式的多模态音频数据集，含对话和音频路径，用于音频问答微调。 |
+| mllm_video_demo | 828B | `/shared-only/datasets/mllm_video_demo.json` | ShareGPT 格式的多模态视频数据集，含视频问答及视频路径，用于视频问答微调。 |
+| mllm_video_audio_demo | 1.1KB | `/shared-only/datasets/mllm_video_audio_demo.json` | ShareGPT 格式的多模态音视频数据集，含音视频问答及对应文件路径，用于音视频问答微调。 |
 
 ## 💡 如何学习
 
@@ -174,7 +172,7 @@
 
 #### 进阶者路径（建议1-2周）
 1. **深度学习**：重点学习第2、4、8章的技术细节
-2. **系统实践**：使用 LLaMA-Factory Online 完成端到端项目
+2. **系统实践**：使用 LlamaFactory Online 完成端到端项目
 3. **源码研究**：阅读项目提供的完整代码案例
 
 #### 专家路径
@@ -265,7 +263,7 @@
 ---
 
 **关于 LLaMA-Factory**  
-LLaMA-Factory Online是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练。
+LlamaFactory Online是一个开源的大模型微调与部署平台，致力于降低大模型应用门槛，让每一位开发者都能轻松使用和定制大模型。无需编写代码通过交互式选参即可轻松完成大模型微调任务，支持SFT、DPO等训练方法和LoRA、Freeze调优算法，提供高性能GPU卡进行单机多卡、多机多卡分布式训练。
 
 扫描二维码关注我们，获取最新技术动态和活动信息：
 
