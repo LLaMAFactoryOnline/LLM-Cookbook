@@ -45,7 +45,7 @@
     - [3. Epochs 与 Overfitting (过拟合).md](./chapter9/4.%20Epochs%20与%20Overfitting%20(过拟合).md)
     - [4. 常见微调超参数速查表](./chapter9/5.%20常见微调超参数速查表.md)
     - [5. 高级超参数调优技术](./chapter9/6.%20高级超参数调优技术.md)
-  - [第十章 LLaMA-Factory Online​](./chapter10/产品简介.md)
+  - [第十章 LlamaFactory Online​](./chapter10/产品简介.md)
     - [1. 账户注册登录](./chapter10/1.%20账户注册登录.md)
     - [2. 使用指引](./chapter10/2.%20使用指引.md)
     - [3. 新用户限时免费体验](./chapter10/3.%20新用户限时免费体验.md) 

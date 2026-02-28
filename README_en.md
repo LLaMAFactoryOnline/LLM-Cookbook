@@ -25,7 +25,7 @@
 <div align="center">
 
   <h3>📚 Hands-On LLM Fine-Tuning Tutorial from Scratch</h3>
-  <p><em>Master core LLM fine-tuning techniques from the ground up with step-by-step guidance to professional-grade model customization (Powered by LLaMA-Factory Online)</em></p>
+  <p><em>Master core LLM fine-tuning techniques from the ground up with step-by-step guidance to professional-grade model customization (Powered by LlamaFactory Online)</em></p>
 </div>
 
 ---
@@ -34,9 +34,9 @@
 
 ## 🎯 Project Overview
 
-    As large language models evolve rapidly, more developers seek to integrate their domain expertise and vertical industry data with these models. However, they often find themselves overwhelmed by massive parameter counts, complex training pipelines, and diverse fine-tuning techniques. To address this, we present the LLM-Cookbook project—a comprehensive, practical guide to fine-tuning large language models.
+As large language models evolve rapidly, more developers seek to integrate their domain expertise and vertical industry data with these models. However, they often find themselves overwhelmed by massive parameter counts, complex training pipelines, and diverse fine-tuning techniques. To address this, we present the LLM-Cookbook project—a comprehensive, practical guide to fine-tuning large language models.
 
-    This project delivers a systematic tutorial specifically designed for LLM fine-tuning, spanning from foundational concepts to advanced techniques, and from theoretical principles to hands-on implementation. We guide you through the core mechanisms of various fine-tuning methods, equip you with practical skills in data processing, hyperparameter optimization, and model evaluation, and demonstrate real-world industry applications for deploying LLMs in production scenarios. Our goal is to make this guide an essential resource for every developer aspiring to master customized large language model capabilities.
+This project delivers a systematic tutorial specifically designed for LLM fine-tuning, spanning from foundational concepts to advanced techniques, and from theoretical principles to hands-on implementation. We guide you through the core mechanisms of various fine-tuning methods, equip you with practical skills in data processing, hyperparameter optimization, and model evaluation, and demonstrate real-world industry applications for deploying LLMs in production scenarios. Our goal is to make this guide an essential resource for every developer aspiring to master customized large language model capabilities.
 
 
 
@@ -69,17 +69,17 @@
 
 | Chapter | Title                          | Core Content              | Status |
 |----------|-----------------------------------|--------------------------------|------|
-| Chapter 1  | NLP Fundamentals                          | Covers foundational NLP concepts, technological evolution, and core tasks.| ✅    |
-| Chapter 2  | Transformer Architecture                  | Analyzes attention mechanisms and builds complete Transformer models.| ✅    |
-| Chapter 3   | Pre-trained Language Models                   | Introduces three categories of pre-trained language model architectures with selection guidelines.| ✅    |
-| Chapter 4   | 	Large Language Model                       | Explores LLM definitions and training methodologies.| ✅    |
-| Chapter 5   | LLM Fine-Tuning                       | Explains mainstream fine-tuning techniques including SFT and LoRA, with practical guides and pitfall avoidance strategies.| ✅  |
-| Chapter 6   | Fine-Tuning vs. Other Model Optimization Approaches     | Compares fine-tuning with prompt engineering, distillation, and pre-training, providing decision-making frameworks.| ✅   |
-| Chapter 7   | Mainstream Fine-Tuning Frameworks & Toolchains       | Introduces fine-tuning tools like PEFT, along with data processing and hardware optimization solutions.| ✅    |
-| Chapter 8   | Dataset Construction & Processing                 | Covers dataset construction principles and preprocessing workflows.| ✅    |
-| Chapter 9   | Fine-Tuning Hyperparameters Explained                     | Analyzes tuning techniques for hyperparameters such as learning rate and batch size, with quick reference tables.| ✅    |
-| Chapter 10   | LLaMA-Factory Online             | Guides through cloud-based fine-tuning platform registration, usage, and free trial access.| ✅    |
-| Chapter 11 | Best Practice                         | Showcases real-world LLM fine-tuning implementations in healthcare, legal, and finance domains.| 🛠️    |
+| Chapter 1  | [NLP Fundamentals](./docs/chapter1/1.%20NLP是什么.md)  | Covers foundational NLP concepts, technological evolution, and core tasks.| ✅    |
+| Chapter 2  | [Transformer Architecture](./docs/chapter2/1.%20Transformer的历史意义与技术革命.md)| Analyzes attention mechanisms and builds complete Transformer models.| ✅    |
+| Chapter 3   | [Pre-trained Language Models](./docs/chapter3/1.%20预训练语言模型的革命性意义.md) | Introduces three categories of pre-trained language model architectures with selection guidelines.| ✅    |
+| Chapter 4   | 	[Large Language Model](./docs/chapter4/1.%20大语言模型的时代意义.md)  | Explores LLM definitions and training methodologies.| ✅    |
+| Chapter 5   | [LLM Fine-Tuning](./docs/chapter5/1.%20大模型微调的必要性与价值.md)  | Explains mainstream fine-tuning techniques including SFT and LoRA, with practical guides and pitfall avoidance strategies.| ✅  |
+| Chapter 6   | [Fine-Tuning vs. Other Model Optimization Approaches](./docs/chapter6/1.%20理解模型优化的全景图.md)     | Compares fine-tuning with prompt engineering, distillation, and pre-training, providing decision-making frameworks.| ✅   |
+| Chapter 7   | [Mainstream Fine-Tuning Frameworks & Toolchains](./docs/chapter7/1.%20构建高效微调生态系统.md)       | Introduces fine-tuning tools like PEFT, along with data processing and hardware optimization solutions.| ✅    |
+| Chapter 8   | [Dataset Construction & Processing](./docs/chapter8/1.%20数据质量决定模型上限.md) | Covers dataset construction principles and preprocessing workflows.| ✅    |
+| Chapter 9   | [Fine-Tuning Hyperparameters Explained](./docs/chapter9/1.%20超参数的艺术与科学.md)  | Analyzes tuning techniques for hyperparameters such as learning rate and batch size, with quick reference tables.| ✅    |
+| Chapter 10   | [LlamaFactory Online](./docs/chapter10/产品简介.md)| Guides through cloud-based fine-tuning platform registration, usage, and free trial access.| ✅    |
+| Chapter 11 | [Best Practice](./docs/chapter11/最佳实践.md) | Showcases real-world LLM fine-tuning implementations in healthcare, legal, and finance domains.| 🛠️    |
 
 ---
 
@@ -176,7 +176,7 @@ These datasets collectively support the full development lifecycle of large lang
 
 #### Intermediate Path（1-2 weeks recommended）
 1. **Deep Learning**: Focus on technical details in Chapters 2, 4, and 8
-2. **Systematic Practice**: Complete end-to-end projects using LLaMA-Factory Online
+2. **Systematic Practice**: Complete end-to-end projects using LlamaFactory Online
 3. **Source Code Study**: Review complete code examples provided in the project
 
 #### Expert Path
@@ -267,7 +267,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial-
 ---
 
 **About LLaMA-Factory**  
-LLaMA-Factory Online is an open-source platform for LLM fine-tuning and deployment, dedicated to lowering the barrier to LLM applications and enabling every developer to easily use and customize large language models. Complete fine-tuning tasks effortlessly through interactive parameter selection without writing code, supporting training methods like SFT and DPO, optimization algorithms including LoRA and Freeze, and providing high-performance GPUs for single-machine multi-card and multi-machine multi-card distributed training.
+LlamaFactory Online is an open-source platform for LLM fine-tuning and deployment, dedicated to lowering the barrier to LLM applications and enabling every developer to easily use and customize large language models. Complete fine-tuning tasks effortlessly through interactive parameter selection without writing code, supporting training methods like SFT and DPO, optimization algorithms including LoRA and Freeze, and providing high-performance GPUs for single-machine multi-card and multi-machine multi-card distributed training.
 
 Scan the QR code to follow us for the latest technical updates and event information:
 
