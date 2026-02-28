@@ -136,7 +136,7 @@ The platform hosts an extensive collection of AI datasets. These datasets consti
 
 **Multimodal Fine-tuning** Datasets: Including mllm_audio_demo, mllm_video_demo, etc., correlating text with audio and video files to train models in processing and understanding multimodal information.
 
-**Domain-specific Fine-tuning** Datasets: Examples include QA_from_CoVLA_zh for autonomous driving, medical_o1_sft_Chinese_alpaca for healthcare, and identity for defining behavioral norms—enhancing model expertise in vertical area or behavioral specifications.
+**Domain-specific Fine-tuning** Datasets: Examples include medical_o1_sft_Chinese_alpaca for healthcare, and identity for defining behavioral norms—enhancing model expertise in vertical area or behavioral specifications.
 
 These datasets collectively support the full development lifecycle of large language models, from general knowledge acquisition and conversational capability cultivation to specialized skill enhancement.
 
@@ -145,7 +145,6 @@ These datasets collectively support the full development lifecycle of large lang
 | wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | pleisto | Filtered and processed Chinese Wikipedia data from July 20, 2023, suitable for Chinese model pre-training. |
 | wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | English Wikipedia snapshot from December 20, 2022, high-quality knowledge-based pre-training corpus. |
 | refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | TII | High-quality web text created by TII for Falcon models, extensively filtered and deduplicated—one of the best open web corpora available. |
-| QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | AlayaNeW | Constructed for multimodal LLM fine-tuning tasks, focusing on visual recognition in autonomous driving scenarios. Chinese version translated from QA_from_CoVLA dataset, adapted to LlamaFactory framework fine-tuning format. |
 | redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | togethercomputer | A project aimed at fully open-sourcing LLaMA model training data replication, containing massive and diverse text and code. |
 | medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | llamafactory | N/A |
 | identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | Contains multilingual (Chinese and English) user queries and corresponding AI assistant response templates, covering AI assistant names and developer information. |

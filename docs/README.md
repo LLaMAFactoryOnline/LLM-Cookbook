@@ -138,7 +138,7 @@
 
 **多模态微调**数据集：包括mllm_audio_demo、mllm_video_demo等，通过关联文本与音频、视频文件，训练模型处理和理解多模态信息。
 
-**领域专项微调**数据集：例如针对自动驾驶的QA_from_CoVLA_zh、针对医疗的medical_o1_sft_Chinese_alpaca以及定义身份的identity，用于增强模型在特定垂直领域的专业性或行为规范。
+**领域专项微调**数据集：针对医疗的medical_o1_sft_Chinese_alpaca以及定义身份的identity，用于增强模型在特定垂直领域的专业性或行为规范。
 
 这些数据集共同支撑了大语言模型从通用知识学习、对话能力培养到专项技能赋予的全阶段开发流程。
 
@@ -147,7 +147,6 @@
 | wikipedia_zh | 501MB | `/shared-only/datasets/pleisto/wikipedia-cn-20230720-filtered/wikipedia-cn-20230720-filtered.json` | pleisto | 经过过滤和处理的2023年7月20日中文维基百科数据，适用于中文模型预训练。 |
 | wikipedia_en | 12GB | `/shared-only/datasets/olm/olm-wikipedia-20221220/data/` | olm | 包含2022年12月20日英文维基百科快照的文本，高质量知识性预训练语料。 |
 | refinedweb | 568GB | `/shared-only/datasets/tiiuae/falcon-refinedweb/data/` | TII | 由TII为Falcon模型创建的高质量网络文本，经过大量过滤和去重，是目前最好的开放网络语料之一。 |
-| QA_from_CoVLA_zh | 940MB | `/shared-only/datasets/AlayaNeW/QA_from_CoVLA_zh/data/QA_from_CoVLA_zh.json` | AlayaNeW | 专为多模态大模型微调任务构建，聚焦自动驾驶场景下的视觉识别需求。基于QA_from_CoVLA数据集进行翻译整理的中文版本。适配了llamafactory框架微调数据集格式。 |
 | redpajama_v2 | 114MB | `/shared-only/datasets/togethercomputer/RedPajama-Data-V2` | togethercomputer | 一个旨在完全开源地复现LLaMA模型训练数据的项目，包含海量、多样的文本和代码。 |
 | medical_o1_sft_Chinese_alpaca | 49GB | `/shared-only/datasets/medical_o1_sft_Chinese_alpaca.json` | llamafactory | 暂无 |
 | identity | 20KB | `/shared-only/datasets/identity.json` | llamafactory | 包含多种语言（中英）的用户询问及对应的AI助手回复模板，涉及AI助手的名称和开发者信息。 |

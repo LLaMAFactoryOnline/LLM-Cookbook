@@ -134,7 +134,7 @@
 
 **多模态微调**数据集：包括mllm_audio_demo、mllm_video_demo等，通过关联文本与音频、视频文件，训练模型处理和理解多模态信息。
 
-**领域专项微调**数据集：例如针对自动驾驶的QA_from_CoVLA_zh、针对医疗的medical_o1_sft_Chinese_alpaca以及定义身份的identity，用于增强模型在特定垂直领域的专业性或行为规范。
+**领域专项微调**数据集：针对医疗的medical_o1_sft_Chinese_alpaca以及定义身份的identity，用于增强模型在特定垂直领域的专业性或行为规范。
 
 这些数据集共同支撑了大语言模型从通用知识学习、对话能力培养到专项技能赋予的全阶段开发流程。
 
